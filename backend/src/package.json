@@ -2,10 +2,10 @@
   "name": "splitguard-backend",
   "version": "1.0.0",
   "description": "SplitGuard - AI 기반 모임 정산 자동화 서비스",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
+    "dev": "nodemon sapp.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.18.2",

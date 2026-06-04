@@ -6,7 +6,7 @@ const morgan = require('morgan');
 require('./config/DB'); // DB 초기화
 
 const moimsRouter       = require('./routes/Moims');
-const settlementsRouter = require('./routes/settlements');
+const settlementsRouter = require('./routes/settlement');
 const usersRouter       = require('./routes/users');
 const { errorHandler, notFoundHandler } = require('./middlewares/errorHandler');
 
